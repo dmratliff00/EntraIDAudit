@@ -5,10 +5,10 @@ Due to Azure Entra ID being used for the management of a significant application
 
 ```
 Using Microsoft Entra Admin Center (GUI)
-1.	Sign in to Microsoft Entra Admin Center.
-2.	Navigate to Identity > Users > All users.
-3.	Click Download users at the top.
-4.	Choose the file format (CSV) and click Download to export the list.
+1. Sign in to Microsoft Entra Admin Center.
+2. Navigate to Identity > Users > All users.
+3. Click Download users at the top.
+4. Choose the file format (CSV) and click Download to export the list.
 ```
 Link to skip to step 3:
 ```
@@ -19,15 +19,15 @@ https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMe
 
 ```
 Using Microsoft Entra Admin Center (GUI)
-1.	Sign in to Microsoft Entra Admin Center.
-2.	Go to Identity > Identity Governance > Privileged Identity Management.
-3.	In the Privileged Identity Management section, navigate to  Microsoft Entra roles.
-4.	Under  Microsoft Entra Roles, go to the Assignments tab.
-5.	Here, you can see the list of role assignments, which includes:
+1. Sign in to Microsoft Entra Admin Center.
+2. Go to Identity > Identity Governance > Privileged Identity Management.
+3. In the Privileged Identity Management section, navigate to  Microsoft Entra roles.
+4. Under  Microsoft Entra Roles, go to the Assignments tab.
+5. Here, you can see the list of role assignments, which includes:
   - Active: Users currently assigned roles.
   - Eligible: Users eligible to activate roles.
   - Expired: Users whose role grants have expired.
-6.	Export role assignments:
+6. Export role assignments:
   - Click the Download button (top-right corner) to export the list as a CSV file.
 ```
 Link to skip to step 6:
@@ -38,12 +38,12 @@ https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/
 ## Role Assignments Export
 ```
 Using Microsoft Entra Admin Center (GUI)
-1.	Sign in to Microsoft Entra Admin Center.
-2.	Navigate to Identity > Roles & Administrators.
-3.	Click Roles & administrators to see assigned roles.
-4.	Click Roles & administrators then click the "Download assignments" button at the top of the table.
-5.	Click Download or Export to CSV to save the role assignments.
-6.	This file is exported with the naming convention "AzureExportRoleAssignments_All_{YYYY-MM-dd}.csv"
+1. Sign in to Microsoft Entra Admin Center.
+2. Navigate to Identity > Roles & Administrators.
+3. Click Roles & administrators to see assigned roles.
+4. Click Roles & administrators then click the "Download assignments" button at the top of the table.
+5. Click Download or Export to CSV to save the role assignments.
+6. This file is exported with the naming convention "AzureExportRoleAssignments_All_{YYYY-MM-dd}.csv"
 ```
 Link to skip to step 4:
 ```
@@ -84,7 +84,7 @@ Screenshots are only needed for Conditional Access Policies that enforce MFA for
   - Administrative Entra access (and AD if applicable)
   - Remote access
   - Significant system access
-2.	Please include screenshots for the following categories:
+2. Please include screenshots for the following categories:
   - Users
     - Include and exclude tabs
   - Target resources
