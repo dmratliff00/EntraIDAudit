@@ -10,7 +10,7 @@ Using Microsoft Entra Admin Center (GUI)
 3.	Click Download users at the top.
 4.	Choose the file format (CSV) and click Download to export the list.
 ```
-OR
+Link to skip to step 3:
 ```
 https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers
 ```
@@ -30,7 +30,7 @@ Using Microsoft Entra Admin Center (GUI)
 6.	Export role assignments:
 - Click the Download button (top-right corner) to export the list as a CSV file.
 ```
-OR
+Link to skip to step 6:
 ```
 https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/members/resourceId//resourceType/tenant/provider/aadroles
 ```
@@ -45,7 +45,7 @@ Using Microsoft Entra Admin Center (GUI)
 5.	Click Download or Export to CSV to save the role assignments.
 6.	This file is exported with the naming convention "AzureExportRoleAssignments_All_{YYYY-MM-dd}.csv"
 ```
-OR
+Link to skip to step 4:
 ```
 https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles
 ```
@@ -55,10 +55,10 @@ https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/A
 Using Microsoft Entra Admin Center (GUI)
 1. Sign in to Microsoft Entra Admin Center.
 2. Navigate to Identity > Applications > Enterprise applications.
-3. Click on the Enterprise application in scope
+3. Click on the Enterprise application(s) in scope
 4. Navigate to Manage>Users and groups (on the left pane). Take a screenshot of this screen
 ```
-OR
+Link to skip to step 3:
 ```
 https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
 ```
@@ -66,18 +66,21 @@ https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBl
 ## Screenshots of the configurations within the “Security>Conditional Access” tab under the significant application(s) found under:
 ```
 Using Microsoft Entra Admin Center (GUI)
-1.	Sign in to Microsoft Entra Admin Center.
+1. Sign in to Microsoft Entra Admin Center.
 2. Navigate to Identity > Applications > Enterprise applications.
 3. Click on the Enterprise application in scope
 4. Navigate to Security>Conditional Access (on the left pane). Take a screenshot of this screen
 ```
-OR
+Link to skip to step 3:
 ```
 https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
 ```
 
 ## Screenshots of the Configurations of Conditional Access Policies
-1.	That are used to enforce MFA for the following scenarios:
+
+Screenshots are only needed for Conditional Access Policies that enforce MFA for remote access, administrators, and users with access to the significant systems (determined by the `Enterprise Applications>users & groups` view from above)
+
+1. That are used to enforce MFA for the following scenarios:
 - Administrative Entra access (and AD if applicable)
 - Remote access
 - Significant system access
@@ -93,13 +96,17 @@ https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBl
 ```
 Using Microsoft Entra Admin Center (GUI)
 1. Sign in to Microsoft Entra Admin Center.
-2.	Navigate to Identity > Protection > Conditional Access.
-3.	Under Policies, you'll see a list of all Conditional Access policies configured in your tenant.
+2. Navigate to Identity > Protection > Conditional Access.
+3. Under Policies, you'll see a list of all Conditional Access policies configured in your tenant.
 4. Click on a policy to view its settings, including:
-5.	Assignments (Users, Groups, Roles, Cloud Apps)
-6.	Conditions (Device Platforms, Locations, Client Apps, Risk Levels)
-7.	Access Controls (Grant or Block Access, MFA Requirements)
-8.	Click Download (top-right corner) to export the policies in JSON format.
+5. Assignments (Users, Groups, Roles, Cloud Apps)
+6. Conditions (Device Platforms, Locations, Client Apps, Risk Levels)
+7. Access Controls (Grant or Block Access, MFA Requirements)
+8. Click Download (top-right corner) to export the policies in JSON format.
+```
+Link to skip to step 4:
+```
+https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies/menuId//fromNav/Identity
 ```
 
 ## Screenshot of the password protection screen to show lockout threshold, lockout duration, and banned password configurations
@@ -109,7 +116,7 @@ Using Microsoft Entra Admin Center (GUI)
 2. Navigate to Identity > Protection > Authentication Methods.
 3. Click on Password Protection (left menu).
 ```
-OR
+Link to skip steps above:
 ```
 https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection/fromNav/Identity
 ```
