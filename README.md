@@ -85,10 +85,10 @@ Screenshots are only needed for Conditional Access Policies that enforce MFA for
 - Remote access
 - Significant system access
 2.	Please include screenshots for the following categories:
-- Users (Unless “All users” is visible)
-- Include and exclude tabs
+- Users
+  - Include and exclude tabs
 - Target resources
-- Include and exclude tabs
+  - Include and exclude tabs
 - Network
 - Conditions
 - Grant
@@ -98,11 +98,12 @@ Using Microsoft Entra Admin Center (GUI)
 1. Sign in to Microsoft Entra Admin Center.
 2. Navigate to Identity > Protection > Conditional Access.
 3. Under Policies, you'll see a list of all Conditional Access policies configured in your tenant.
-4. Click on a policy to view its settings, including:
-5. Assignments (Users, Groups, Roles, Cloud Apps)
-6. Conditions (Device Platforms, Locations, Client Apps, Risk Levels)
-7. Access Controls (Grant or Block Access, MFA Requirements)
-8. Click Download (top-right corner) to export the policies in JSON format.
+4. Click on a policy to view its settings, taking screenshots of each configuration set, including:
+  a. Users (Include and Exclude tabs)
+  b. Target resources (Include and Exclude tabs)
+  c. Network (if used)
+  d. Conditions (Device Platforms, Locations, Client Apps, Risk Levels)
+  e. Grant
 ```
 Link to skip to step 4:
 ```
@@ -115,8 +116,9 @@ Using Microsoft Entra Admin Center (GUI)
 1. Sign in to Microsoft Entra Admin Center.
 2. Navigate to Identity > Protection > Authentication Methods.
 3. Click on Password Protection (left menu).
+4. Take a screenshot of this screen.
 ```
-Link to skip steps above:
+Link to skip to step 4:
 ```
 https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/PasswordProtection/fromNav/Identity
 ```
