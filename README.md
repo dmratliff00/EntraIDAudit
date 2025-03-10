@@ -24,11 +24,11 @@ Using Microsoft Entra Admin Center (GUI)
 3.	In the Privileged Identity Management section, navigate to  Microsoft Entra roles.
 4.	Under  Microsoft Entra Roles, go to the Assignments tab.
 5.	Here, you can see the list of role assignments, which includes:
-- Active: Users currently assigned roles.
-- Eligible: Users eligible to activate roles.
-- Expiring soon: Roles with upcoming expiry dates.
+  - Active: Users currently assigned roles.
+  - Eligible: Users eligible to activate roles.
+  - Expired: Users whose role grants have expired.
 6.	Export role assignments:
-- Click the Download button (top-right corner) to export the list as a CSV file.
+  - Click the Download button (top-right corner) to export the list as a CSV file.
 ```
 Link to skip to step 6:
 ```
@@ -81,17 +81,17 @@ https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBl
 Screenshots are only needed for Conditional Access Policies that enforce MFA for remote access, administrators, and users with access to the significant systems (determined by the `Enterprise Applications>users & groups` view from above)
 
 1. That are used to enforce MFA for the following scenarios:
-- Administrative Entra access (and AD if applicable)
-- Remote access
-- Significant system access
+  - Administrative Entra access (and AD if applicable)
+  - Remote access
+  - Significant system access
 2.	Please include screenshots for the following categories:
-- Users
-  - Include and exclude tabs
-- Target resources
-  - Include and exclude tabs
-- Network
-- Conditions
-- Grant
+  - Users
+    - Include and exclude tabs
+  - Target resources
+    - Include and exclude tabs
+  - Network
+  - Conditions
+  - Grant
 
 ```
 Using Microsoft Entra Admin Center (GUI)
